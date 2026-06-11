@@ -1,197 +1,60 @@
-```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohini Mutal | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Rohini | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-<header>
+  <header>
     <nav class="navbar">
-        <h1 class="logo">Rohini Mutal</h1>
-
-        <ul class="nav-links">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <h1 class="logo">Rohini</h1>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<!-- HERO SECTION -->
-
-<section class="hero">
+  <!-- ==== HERO ==== -->
+  <section class="hero">
     <div class="hero-inner">
-
-        <img src="profile.jpg" alt="Rohini Profile" class="hero-img">
-
-        <h2>
-            Hi, I'm
-            <span class="accent">Rohini Mutal</span>
-        </h2>
-
-        <p class="tagline">
-            BSc IT Student | Web Developer | Java Developer
-        </p>
-
-        <p class="hero-desc">
-            Passionate about building responsive web applications,
-            database-driven solutions, and user-friendly digital experiences.
-        </p>
-
-        <div class="hero-btns">
-
-            <a href="about.html" class="btn primary">
-                About Me
-            </a>
-
-            <a href="#projects" class="btn secondary">
-                View Projects
-            </a>
-
-        </div>
-
+      <img src="profile.jpg" alt="Rohini profile photo" class="hero-img">
+      <h2>Hi, I’m <span class="accent">Rohini</span></h2>
+      <p class="tagline">I build colorful, performant, and accessible web experiences.</p>
+      <div class="hero-btns">
+        <a href="about.html" class="btn primary">About Me</a>
+        <a href="contact.html" class="btn secondary">Let’s Talk</a>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- STATS SECTION -->
-
-<section class="stats-section">
-
-    <div class="stat-card">
-        <h3>9.41</h3>
-        <p>CGPA</p>
-    </div>
-
-    <div class="stat-card">
-        <h3>2</h3>
-        <p>Internships</p>
-    </div>
-
-    <div class="stat-card">
-        <h3>3+</h3>
-        <p>Projects</p>
-    </div>
-
-    <div class="stat-card">
-        <h3>3</h3>
-        <p>Certifications</p>
-    </div>
-
-</section>
-
-<!-- SKILLS -->
-
-<section class="skills-section">
-
-    <h3>Technical Skills</h3>
-
-    <div class="chip-cloud">
-
-        <span class="chip">Java</span>
-        <span class="chip">Python</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">HTML5</span>
-        <span class="chip">CSS3</span>
-        <span class="chip">SQL</span>
-        <span class="chip">MySQL</span>
-        <span class="chip">MongoDB</span>
-        <span class="chip">JDBC</span>
-        <span class="chip">Hibernate</span>
-        <span class="chip">Git</span>
-        <span class="chip">GitHub</span>
-
-    </div>
-
-</section>
-
-<!-- PROJECTS -->
-
-<section id="projects" class="projects-preview">
-
+  <!-- ==== (optional) PROJECTS PREVIEW ==== -->
+  <section id="projects" class="projects-preview">
     <h3>Featured Projects</h3>
-
     <div class="card-grid">
-
-        <article class="card">
-
-            <h4>💎 Jewellery Management System</h4>
-
-            <p>
-                Built using JSP, JDBC, Hibernate and SQL.
-                Supports CRUD operations and inventory management.
-            </p>
-
-        </article>
-
-        <article class="card">
-
-            <h4>🛒 E-Commerce Website</h4>
-
-            <p>
-                Responsive shopping website with product catalog,
-                login system and shopping cart functionality.
-            </p>
-
-        </article>
-
-        <article class="card">
-
-            <h4>🏋️ Gym Management Application</h4>
-
-            <p>
-                Python and SQL based application for managing
-                gym members and database records.
-            </p>
-
-        </article>
-
+      <article class="card">
+        <h4>Portfolio Website</h4>
+        <p>Fully responsive site built with HTML, CSS, and JS.</p>
+      </article>
+      <article class="card">
+        <h4>Jewellery Management System</h4>
+        <p>Inventory & billing app (Java + Oracle DB).</p>
+      </article>
+      <article class="card">
+        <h4>Shopping Cart App</h4>
+        <p>React + Firebase realtime store with auth.</p>
+      </article>
     </div>
+    <p class="more-link"><a href="#projects">See all projects →</a></p>
+  </section>
 
-</section>
-
-<!-- INTERNSHIP -->
-
-<section class="projects-preview">
-
-    <h3>Internship Experience</h3>
-
-    <div class="card-grid">
-
-        <article class="card">
-            <h4>Full Stack Development Intern</h4>
-            <p>
-                Prodigy InfoTech (Remote)
-                <br>
-                Developed responsive web applications and improved UI functionality.
-            </p>
-        </article>
-
-        <article class="card">
-            <h4>Web Development Intern</h4>
-            <p>
-                Prodigy InfoTech (Remote)
-                <br>
-                Designed responsive webpages and interactive user interfaces.
-            </p>
-        </article>
-
-    </div>
-
-</section>
-
-<footer>
-    © 2025 Rohini Mutal | Portfolio Website
-</footer>
-
+  <footer>
+    © 2025 Rohini • Built with ❤️ & CSS
+  </footer>
 </body>
 </html>
-```
